@@ -5,6 +5,6 @@ labels.forEach(label => {
     /* Establecer el HTML interno de la etiqueta en el texto interno de la etiqueta. */
     label.innerHTML = label.innerText
         .split('')
-        .map((letter, idx) => `<span style="transition-delay:${idx * 50}ms">${latter}</span`)
+        .map((letter, idx) => `<span style="transition-delay:${idx * 50}ms">${letter}</span>`)
         .join('')
 })
